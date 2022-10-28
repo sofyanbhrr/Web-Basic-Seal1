@@ -1,4 +1,17 @@
 <html>
+    <head>
+        <style>
+            table, tr, td, th{
+                border: 1px solid aquamarine;
+                font-style: italic;
+
+            }
+            
+        </style>
+         
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
     <body>
         <h1>Sofyan Baharudin</h1>
         <img src="zsofyan.jpg" width="100">
@@ -20,13 +33,13 @@
         </ul>
         <h2>Penghargaan</h2>
         <ul>
-           <p><li> Juara 1 Provinsi  : Tourism Marching Band Competition</li></p> 
-           <p><li> Juara 1 Kabupaten : Melukis di Tong Sampah</li></p>
+           <p class="para color"><li> Juara 1 Provinsi  : Tourism Marching Band Competition</li></p> 
+           <p class="para color"><li> Juara 1 Kabupaten : Melukis di Tong Sampah</li></p>
         </ul>
         <h2>Kontak Saya</h2>
-        <p><a href="https://www.instagram.com/sofyanbhrr/?hl=id">Instagram</a></p>
-        <p><a href="mailto:sofyanbaharudin234@gmail.com">Email</a></p>
-        <p><a href="tel:+6285701602755">WhatsApp</a></p>
+        <p class="para-external"><a href="https://www.instagram.com/sofyanbhrr/?hl=id">Instagram</a></p>
+        <p class="para-external"><a href="mailto:sofyanbaharudin234@gmail.com">Email</a></p>
+        <p class="para-external"><a href="tel:+6285701602755">WhatsApp</a></p>
     </body>
 </html>
 
@@ -38,12 +51,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
 </head>
+    
 <body>
-
+<head>
+    <style>
+        .para {
+            font: bold;
+        }
+    </style>
+</head>
     <h1>Tabel Anggota Kelompok UMKM</h1>
 
     <form>
-        <p>Nama:</p>
+        <p class="para">Nama:</p>
             <input type="text" name="nama" placeholder="Enter your name">
         <p>Kelompok:</p>
             <input type="radio" name="kelompok" id="wonosobo">
